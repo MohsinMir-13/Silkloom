@@ -1,0 +1,111 @@
+AI AGENT TRAINING EXAMPLE
+Scenario: CV Evaluation for Software Engineering Role
+
+=== INPUT DATA ===
+
+JOB REQUIREMENTS:
+Position: Senior Software Engineer
+Required: 5+ years experience, JavaScript, Python, React, Node.js, databases, Git
+Preferred: AWS, Docker, team leadership, Agile experience
+
+CANDIDATE CV:
+John Smith - 6 years experience
+Skills: JavaScript, Python, React, Node.js, PostgreSQL, MongoDB, AWS certified
+Experience: Led team of 3, improved performance 40%, CI/CD implementation
+Education: BS Computer Science
+
+=== EXPECTED AI OUTPUT ===
+
+EVALUATION_START
+
+MATCH_SCORE: 92
+DECISION: HIRE
+CONFIDENCE: HIGH
+
+REQUIREMENTS_ANALYSIS:
+required_met: 8/8
+preferred_met: 6/8
+
+DETAILED_ASSESSMENT:
+✅ Experience: 6 years (exceeds 5+ requirement)
+✅ JavaScript: Strong proficiency demonstrated
+✅ Python: Professional experience with Flask/Django
+✅ React: Current role experience
+✅ Node.js: Backend development experience
+✅ Databases: PostgreSQL, MongoDB experience
+✅ Git: Version control experience confirmed
+✅ Problem-solving: 40% performance improvement evidence
+
+PREFERRED_QUALIFICATIONS:
+✅ AWS: Certified Developer
+✅ Docker: CI/CD pipeline experience
+✅ Leadership: Led team of 3 developers
+✅ Agile: Scrum certified
+⚠️ Advanced degree: Only BS (not critical)
+❌ Microservices: Not explicitly mentioned
+
+STRENGTHS:
+- Exceeds minimum experience requirement
+- Strong technical skill alignment
+- Leadership experience with quantifiable results
+- Continuous learning (certifications)
+- Performance optimization track record
+
+CONCERNS:
+- Limited microservices architecture evidence
+- No advanced degree
+
+RECOMMENDATION:
+Strong hire - proceed to technical interview immediately. 
+Candidate shows excellent alignment with role requirements and growth potential.
+
+INTERVIEW_FOCUS:
+- System design and architecture decisions
+- Leadership and mentoring approach
+- Microservices experience exploration
+- Long-term career goals
+
+EVALUATION_END
+
+=== TRAINING INSTRUCTIONS FOR AI ===
+
+SCORING_METHODOLOGY:
+- Technical skills match: 40 points
+- Experience level: 25 points  
+- Preferred qualifications: 20 points
+- Growth indicators: 10 points
+- Risk assessment: 5 points
+
+DECISION_FRAMEWORK:
+90-100: STRONG_HIRE (immediate interview)
+80-89: HIRE (standard process)
+70-79: CONDITIONAL_HIRE (additional screening)
+60-69: WEAK_HIRE (extensive interview needed)
+50-59: NO_HIRE (major gaps)
+<50: REJECT (fundamental mismatch)
+
+OUTPUT_FORMAT_REQUIREMENTS:
+1. Always start with EVALUATION_START
+2. Provide numerical score (0-100)
+3. Give clear decision (HIRE/NO_HIRE/CONDITIONAL_HIRE)
+4. List specific requirements met/not met
+5. Highlight key strengths and concerns
+6. Provide actionable interview recommendations
+7. End with EVALUATION_END
+
+COMMON_PATTERNS_TO_RECOGNIZE:
+- Overqualification: Score high but flag flight risk
+- Career transition: Lower experience score but note transferable skills
+- Skill mismatch: Low technical score, recommend different role
+- Growth potential: Mid-range score with strong learning indicators
+
+ERROR_HANDLING:
+- Missing information: Flag as "INSUFFICIENT_DATA"
+- Conflicting requirements: Prioritize "required" over "preferred"
+- Unclear experience: Request clarification in interview focus
+
+QUALITY_CHECKS:
+- Ensure score matches written assessment
+- Verify all requirements are addressed
+- Check recommendations are actionable
+- Confirm decision logic is sound

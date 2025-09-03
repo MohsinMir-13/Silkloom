@@ -1,0 +1,15 @@
+Subject: Your Application Status at E-Commerce Plus
+
+Dear John,
+
+Thank you for your application for the Full Stack Developer position at E-Commerce Plus. We are pleased to inform you that you have been shortlisted for this role based on your extensive experience in both front-end and back-end development, particularly with JavaScript, Python, and frameworks like React.js and Node.js. Your background in managing teams and improving application performance aligns well with our needs.
+
+However, we would like to inform you that you do not meet the qualifications for the Senior Data Scientist position at TechInnovate Solutions, as well as other roles such as Marketing Director, DevOps Engineer, Junior Software Engineer, and Product Manager, due to a lack of relevant experience and qualifications in those areas.
+
+We appreciate your interest in our company and look forward to discussing your application further.
+
+Best regards,
+
+[Your Name]  
+[Your Position]  
+E-Commerce Plus

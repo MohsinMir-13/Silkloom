@@ -1,0 +1,17 @@
+Subject: Shortlisting of John Smith for Full Stack Developer Position
+
+Dear [Hiring Manager's Name],
+
+I hope this message finds you well. 
+
+I am writing to inform you that John Smith has been shortlisted for the Full Stack Developer position at E-Commerce Plus. After a thorough evaluation of his qualifications and experience, it is clear that he meets the educational requirements with his Bachelor's degree in Computer Science and possesses the necessary skills in full stack development, particularly with JavaScript, React, and Node.js.
+
+While he is also a potential candidate for the Junior Software Engineer position, his strong fit for the Full Stack Developer role makes him a priority for consideration.
+
+Please let me know if you would like to proceed with scheduling an interview or if you need any further information.
+
+Best regards,
+
+[Your Name]  
+[Your Position]  
+[Your Contact Information]
